@@ -22,8 +22,8 @@ class GoogleAuth extends Component {
   responseGoogle(response) {
     if (response.getAuthResponse()) {
       console.log(response);
-      const link = '/upload';
-      window.location.href = link;  
+      const link = "/upload";
+      window.location.href = link;
     }
   }
 }
